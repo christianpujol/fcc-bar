@@ -17,17 +17,21 @@ svg {
 .bar:hover{
    fill:cyan; 
 }
+#fcc-bar {
+  width:1500px;
+  margin:0 auto;
+}
 
 
 #tooltip {
+  display:none;
   align-items: center;
   justify-content: center;
   position: absolute;
   text-align: center;
   width: 150px;
-  height: 50px;
   padding: 2px;
-  background: lightsteelblue;
+  background: #BA55D3;
   box-shadow: 1px 1px 10px;
   border-radius: 2px;
   pointer-events: none; }
